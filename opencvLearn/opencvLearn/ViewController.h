@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
-
+@property (weak) IBOutlet NSImageView *inputImageView;
+@property (weak) IBOutlet NSImageView *outputImageView;
 
 @end
 
