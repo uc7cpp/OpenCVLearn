@@ -260,8 +260,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/opt/opencv/include;
 				INFOPLIST_FILE = opencvLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/opencv/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.healthearth.test.opencvLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,8 +274,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/opt/opencv/include;
 				INFOPLIST_FILE = opencvLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/opencv/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.healthearth.test.opencvLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
